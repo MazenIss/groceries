@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'recipe';
+  b:boolean=false;
+  onSelected(s:string){
+    (s==='recipe') ? this.b=false : this.b=true;
+  }
+
 }
