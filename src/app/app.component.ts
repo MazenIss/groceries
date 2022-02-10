@@ -9,6 +9,7 @@ export class AppComponent {
   b:boolean=false;
   onSelected(s:string){
     (s==='recipe') ? this.b=false : this.b=true;
+console.log(s);
   }
 
 }
